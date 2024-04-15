@@ -14,7 +14,7 @@ const Product = () => {
   const dispatch = useDispatch();
   const addProduct = (product) => {
     dispatch(addCart(product));
-    toast.success("Đặt hàng thành công");
+    toast.success("thêm sản phẩm thành công");
   };
 
   useEffect(() => {
