@@ -11,7 +11,9 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 mb-4">
             <div className="pb-4">
               <NavLink to="/" className="nav-link">
-                <h1 className="fs-1 sm:fs-3 text-warning fw-bolder ">TrG .</h1>
+                <h1 className="fs-1 sm:fs-3 text-warning fw-bolder ">
+                  Tr. <span className="text-primary">G</span>
+                </h1>
               </NavLink>
             </div>
             <div>
@@ -27,28 +29,6 @@ const Footer = () => {
                 </a>
               </p>
             </div>
-            {/* <div className="d-flex gap-2 text-black">
-              <div className="border rounded-circle p-2">
-                <a href="https://www.facebook.com/profile.php?id=100021358124881">
-                  <FaFacebookF />
-                </a>
-              </div>
-              <div className="border rounded-circle p-2">
-                <a href="https://twitter.com/trntrng63635646">
-                  <FaTwitter />
-                </a>
-              </div>
-              <div className="border rounded-circle p-2">
-                <a href="https://www.instagram.com/tr.giangg02/">
-                  <FaInstagram />
-                </a>
-              </div>
-              <div className="border rounded-circle p-2">
-                <a href="https://www.youtube.com/@giangtrantruong5879/featured">
-                  <FaYoutube />
-                </a>
-              </div>
-            </div> */}
           </div>
 
           <div className="col-lg-3 col-md-6 mb-4">

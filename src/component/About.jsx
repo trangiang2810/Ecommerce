@@ -34,7 +34,7 @@ const About = () => {
           </div>
           <div className="col-md-6 d-flex justify-content-center">
             <img
-              src="/assets/about.jpg"
+              src="https://i.pinimg.com/originals/9c/9e/9a/9c9e9ade2f78dfbec27da41d97a27769.jpg"
               alt="About Us"
               className="w-100 rounded-3"
             />

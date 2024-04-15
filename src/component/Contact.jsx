@@ -13,10 +13,10 @@ const Contact = () => {
         <div className="row">
           <div className="col-md 5 d-flex justify-content-center">
             <img
-              src="/assets/contact.png"
+              src="https://accgroup.vn/wp-content/uploads/2022/09/Dia-chi-thu-dien-tu-la-gi.png"
               alt="Contact Us"
               height="300px"
-              width="300px"
+              // width="300px"
             />
           </div>
           <div className="col-md-6">

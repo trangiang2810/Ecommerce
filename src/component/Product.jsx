@@ -4,6 +4,7 @@ import Skeleton from "react-loading-skeleton";
 import { useParams } from "react-router";
 import { useSelector, useDispatch } from "react-redux";
 import { addCart } from "../redux/action";
+import { toast } from "react-toastify";
 
 const Product = () => {
   const { id } = useParams();
@@ -13,6 +14,7 @@ const Product = () => {
   const dispatch = useDispatch();
   const addProduct = (product) => {
     dispatch(addCart(product));
+    toast.success("Đặt hàng thành công");
   };
 
   useEffect(() => {

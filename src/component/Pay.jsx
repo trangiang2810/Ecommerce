@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 // import FromCart from "../components/FromCart";
 import { toast } from "react-toastify";

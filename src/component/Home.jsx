@@ -7,7 +7,7 @@ const Home = () => {
     <div classNameName="hero">
       <div className="card text-bg-dark border-0">
         <img
-          src="/assets/banner.jpg"
+          src="https://img3.thuthuatphanmem.vn/uploads/2019/10/14/banner-thoi-trang-dep-nhat-hien-nay_113856288.jpg"
           className="card-img"
           alt="Background"
           //   height="550px"
@@ -28,7 +28,11 @@ const Home = () => {
       <div className="container mx-auto mt-5">
         <div className="row">
           <div className="col-md-6">
-            <img className="img-fluid" src="./assets/collect1.jpg" alt="img" />
+            <img
+              className="img-fluid"
+              src="http://noithathot.com/cong-trinh/tranghannah/thiet-ke-shop-thoi-trang-nu-40m2-2.jpg"
+              alt="img"
+            />
           </div>
           <div className="col-md-6 d-flex flex-column justify-content-between max-md:pl-3 max-md:pt-3 max-xl:pl-5 max-xl:pt-4 xl:pl-8 xl:pt-6">
             <div className="mb-4">
@@ -39,14 +43,18 @@ const Home = () => {
               <h1 className="fs-4 md:fs-3 mb-3 ">Collection</h1>
               <button className="btn btn-dark px-4 py-2 mt-3">
                 <NavLink
-                  to="/sanpham"
+                  to="/products"
                   className="text-light nav-link fw-bolder"
                 >
                   BUY NOW
                 </NavLink>
               </button>
             </div>
-            <img className="img-fluid" src="./assets/collect2.jpg" alt="img" />
+            <img
+              className="img-fluid"
+              src="https://www.deco-crystal.com/wp-content/uploads/2021/11/thiet-ke-shop-thoi-trang-nam.jpg"
+              alt="img"
+            />
           </div>
         </div>
       </div>
@@ -61,9 +69,11 @@ const Home = () => {
               <div className="col-md-4 py-5">
                 <img
                   className="img-fluid mx-auto d-block pb-4"
-                  src="./assets/icon/service1.png"
+                  src="https://cdn0.iconfinder.com/data/icons/cosmo-layout/40/box_opened-1024.png"
                   alt=""
+                  width="35%"
                 />
+
                 <h2 className="text-center py-3 font-weight-bold fs-4">
                   DELIVERY NATIONWIDE
                 </h2>
@@ -74,8 +84,9 @@ const Home = () => {
               <div className="col-md-4 py-5">
                 <img
                   className="img-fluid mx-auto d-block pb-4"
-                  src="./assets/icon/service2.png"
+                  src="https://png.pngtree.com/png-vector/20220511/ourmid/pngtree-approved-or-certified-medal-icon-png-image_4573209.png"
                   alt=""
+                  width="35%"
                 />
                 <h2 className="text-center py-3 font-weight-bold fs-4">
                   BUY WITHOUT WORRY
@@ -87,8 +98,9 @@ const Home = () => {
               <div className="col-md-4 py-5">
                 <img
                   className="img-fluid mx-auto d-block pb-4"
-                  src="./assets/icon/service3.png"
+                  src="https://www.leikevakschilder.nl/wp-content/uploads/2019/11/wallpaper-roll-icon-61303.png"
                   alt=""
+                  width="35%"
                 />
                 <h2 className="text-center py-3 font-weight-bold fs-4">
                   FROM MORE THAN 100 TYPES OF FABRIC
